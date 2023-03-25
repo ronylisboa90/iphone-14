@@ -1,0 +1,201 @@
+* {
+
+    font-family: sans-serif;
+    margin: 0;
+    /*Margem Externa */
+
+    padding: 0;
+
+    /*Margem Interna*/
+    box-sizing: border-box;
+
+
+
+}
+
+/* Topo do Menu Inferior*/
+.icon-img {
+
+    width: 20px;
+}
+
+.caixa-roxa {
+
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid #d3d3d3;
+
+}
+
+ul {
+
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-left: 100px;
+    font-size: 12px;
+    font-weight: 400px;
+    color: #373737;
+
+}
+
+.caixa-azul {
+
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.titulo-iphone {
+
+    font-size: 40px;
+}
+
+.titulo-secundario {
+
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.paragrafo {
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: #626262;
+}
+
+.preco {
+
+    font-size: 20px;
+    color: #626262;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.botao {
+
+    background-color: #0071e3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.trocar-cor {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.azul {
+
+    background-color: #81a5c4;
+}
+
+.amarelo {
+
+    background-color: #f7da47;
+}
+
+.branco {
+
+    background-color: #c1c1c1;
+}
+
+.preto {
+
+    background-color: #272d33;
+}
+
+.vernelho {
+
+    background-color: #b50012;
+}
+
+.roxo {
+
+    background-color: #ede7f1;
+}
+
+.escolha-cor {
+
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+
+}
+
+.iphone {
+
+    width: 250px;
+    margin-top: 100px;
+    z-index: 99;
+
+}
+
+.circulo {
+
+    width: 100%;
+    height: 100%;
+    background: #81a5c4;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    clip-path: circle(430px at right 750px);
+    display: flex;
+}
+
+@media screen and (min-width:300px) and (max-width:450px) {
+
+    ul {
+        display: none;
+    }
+
+    .caixa-azul {
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .iphone {
+
+        width: 120px;
+        margin: 0;
+        position: absolute;
+        margin-top: 24rem;
+    }
+
+    .cancelar {
+        display: none;
+
+    }
+
+    .circulo {
+
+        clip-path: circle(29.4% at 50% 100%)
+    }
+
+    .caixa-azul {
+
+        padding: 60px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+}
+
