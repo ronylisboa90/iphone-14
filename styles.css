@@ -41,12 +41,14 @@ ul {
 
 }
 
+
 .caixa-azul {
 
     display: flex;
     padding: 50px;
     justify-content: space-between;
     align-items: center;
+
 }
 
 
@@ -78,7 +80,7 @@ ul {
 
 .botao {
 
-    background-color: #0071e3;
+    background-color: burlywood;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -119,7 +121,7 @@ ul {
     background-color: #272d33;
 }
 
-.vernelho {
+.vermelho {
 
     background-color: #b50012;
 }
@@ -198,4 +200,16 @@ ul {
 
     }
 }
+.whatsapp{
 
+    
+    
+    padding: 10px 20px;
+    border: none;
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: auto;
+
+}
